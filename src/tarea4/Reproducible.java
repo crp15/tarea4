@@ -9,10 +9,10 @@ package tarea4;
  *
  * @author Clariza
  */
-public class Reproducible {
-   void ejecutar();
+public interface Reproducible {
+  void ejecutar();
     void detener();
     void rebobinar();
     void avanzar();
-    void grabar(); 
+    void grabar();  
 }
